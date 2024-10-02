@@ -1,0 +1,101 @@
+.container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #f2efd8;
+}
+
+header {
+  margin-bottom: 50px;
+  /*#FCDA70 - желтый. FE99A0A8 - розовый*/
+  background-color: #FCDA708E;
+  box-shadow: 0 40px 40px #FCDA708E;
+  text-shadow: #fe99a0 5px 1px 2px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 30px 0 4px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 48px;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 33px;
+}
+
+.description-image {
+  width: 147px;
+  height: 147px;
+}
+
+.description-content {
+  width: 400px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-title {
+  width: 100%;
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.section-body {
+  width: 100%;
+  margin: 50px 50px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.nav {
+  margin-bottom: 33px;
+}
+
+.navigation{
+  color: #000000;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contacts-name {
+  margin-top: 2px;
+  margin-bottom: 1px;
+  line-height: 2px;
+}
+
+.contact {
+  color: #FD8087;
+}
+
+footer {
+  margin-top: 1px;
+  padding: 15px 0;
+  background-color: #FE99A0A8;
+  box-shadow: 20px 20px 40px rgba(254, 153, 160, 0.66);
+  text-shadow: #ae6a6f 2px 1px 2px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
