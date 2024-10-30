@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MUSonline</title>
+  <script src="js/myFunc.js"></script>
+  <script src="js/load_time.js"></script>
+</head>
+
+<body>
+
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Главная</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">О школе
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Вопросы</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Оплата</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Уроки
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="instruments.html">Инструменты</a>
+        <a href="#">Вокал</a>
+        <a href="#">Музыкальная теория</a>
+
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Заявка
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="table.html">Урок</a>
+        <a href="#">Подарочный сертификат</a>
+
+      </div>
+    </div>
+
+    <a href="#" class="icon" onclick="myFunc()"> &#9836</a>
+  </div>
+
+
+  <div class="container">
+    <h1 class="page-title">MUSonline</h1>
+  </div>
+</header>
+
+<main>
+  <section class="description container">
+    <h2 class="section-title">Музыкальная онлайн школа</h2>
+    <img class="description-image" src="img/trebleclef.png" alt="Логотип">
+    <div class="description-content">
+      <p>Онлайн школа <strong>MUSonline</strong> находит для вас преподавателей и организует дистанционные уроки для взрослых и детей <strong>любого</strong> возраста и уровня подготовки. <br>
+        Как говорил великий композитор <cite>Иоганн Себастьян Бах</cite> - <q>Цель музыки — трогать сердца.</q></p>
+    </div>
+    <h3 class="section-body">В нашей школе вы можете:</h3>
+    <ul><li>заниматься регулярно или в свободном режиме</li>
+      <li>освоить предмет на любом уровне</li>
+      <li> <em> подарить</em> уроки или <em>заказать</em> услуги</li>
+    </ul>
+  </section>
+
+  <section class="contacts container">
+    <h2 class="section-title">Контакты</h2>
+    <p class="contacts-name">Карамышева Арина Николаевна</p>
+    <ul>
+      <li><i>telegram:</i> <a class="contact" href="https://t.me/arinakrm">arinakrm</a></li>
+      <li><i>email:</i> <a class="contact" href="mailto:karamyshevaa04@gmail.com">karamyshevaa04@gmail.com</a></li>
+      <li><i>телефон:</i> <a class="contact" href="tel:+79658819938">+79658819938</a></li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p>MUSonline</p>
+  </div>
+  <div>
+    <p id="load_time"></p>
+  </div>
+</footer>
+</body>
+</html>
