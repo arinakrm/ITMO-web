@@ -1,0 +1,83 @@
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  min-height: 50px;
+  margin: 20px 0;
+  background: #2b4e2b;
+  color: white;
+}
+
+.task p {
+  position: absolute;
+  left: 40px;
+  max-width: 255px;
+}
+
+.task input {
+  margin-left: 25px;
+}
+.conditions {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #2b4e2b;
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.conditions p {
+  margin-left: 25px;
+}
+.condition {
+  position: absolute;
+  display: flex;
+  left: 70%;
+  transform: translate(-50%)
+}
+
+.condition p {
+  margin: 0 3px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 3px;
+}
+.todo {
+  width: 460px;
+  margin: 50px auto 160px;
+  background: #8b988b;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.todo h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+form {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2b4e2b;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+form input {
+  width: 270px;
+  margin-left: 25px;
+}
+
+.todo-button {
+  width: 70px;
+  margin-right: 25px;
+}
+
+.line-through{
+  text-decoration: line-through;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MUSonline</title>
+  <script src="js/myFunc.js"></script>
+  <script src="js/load_time.js"></script>
+</head>
+
+<body>
+
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Главная</a>
+
+    <a href="todo.html">Todo</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">О школе
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Вопросы</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Оплата</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Уроки
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="instruments.html">Инструменты</a>
+        <a href="#">Вокал</a>
+        <a href="#">Музыкальная теория</a>
+
+      </div>
+    </div>
+
+    <div class="dropdown" >
+      <div class="active">
+        <button class="dropbtn">Заявка
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="table.html">Урок</a>
+          <a href="#">Подарочный сертификат</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="icon" onclick="myFunc()"> &#9836</a>
+  </div>
+
+
+
+  <div class="container">
+    <h1 class="page-title">MUSonline</h1>
+  </div>
+</header>
+
+<main>
+  <h2 align="center">
+    Запись на пробное занятиe
+  </h2>
+
+  <h3 align="center"> Вокал
+  </h3>
+  <table border="1">
+    <tr>
+      <td>&nbsp;</td><td>14.10</td><td>15.10</td>
+      <td>16.10</td><td>17.10</td><td>18.10</td>
+    </tr>
+    <tr>
+      <td>15:00-16:30</td><td>—</td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td>—</td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+    <tr>
+      <td>16:30-18:00</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+      <td>—</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+    <tr>
+      <td>18:00-19:30</td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+    </tr>
+  </table>
+
+
+  <h3 align="center"> Фортепиано
+  </h3>
+  <table border="2">
+    <tr>
+      <td>&nbsp;</td><td>14.10</td><td>15.10</td>
+      <td>16.10</td><td>17.10</td><td>18.10</td>
+    </tr>
+    <tr>
+      <td>18:00-19:30</td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+    </tr>
+    <tr>
+      <td>15:00-16:30</td><td>—</td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td>—</td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+    <tr>
+      <td>16:30-18:00</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+      <td>—</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+  </table>
+
+  <h3 align="center"> Гитара
+  </h3>
+  <table border="2">
+    <tr>
+      <td>&nbsp;</td><td>14.10</td><td>15.10</td>
+      <td>16.10</td><td>17.10</td><td>18.10</td>
+    </tr>
+    <tr>
+      <td>16:30-18:00</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+      <td>—</td><td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+    <tr>
+      <td>18:00-19:30</td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td><a class="navigation" href="#">Записаться</a></td><td>—</td>
+    </tr>
+    <tr>
+      <td>15:00-16:30</td><td>—</td><td>—</td>
+      <td><a class="navigation" href="#">Записаться</a></td><td>—</td><td><a class="navigation" href="#">Записаться</a></td>
+    </tr>
+  </table>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    <p>MUSonline</p>
+  </div>
+  <div>
+    <p id="load_time"></p>
+  </div>
+</footer>
+</body>
+</html>
