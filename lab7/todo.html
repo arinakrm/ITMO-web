@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>MUSonline</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/todo.css">
+  <link rel="stylesheet" href="https://cdn.jadelivr.net/npm/toastify-js/scc/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+  <script src="js/todo.js"></script> </head>
+  <script src="js/myFunc.js"></script>
+  <script src="js/load_time.js"></script>
+</head>
+
+<body>
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Главная</a>
+
+    <a href="todo.html" class="active">Todo</a>
+
+
+    <div class="dropdown">
+      <button class="dropbtn">О школе
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Вопросы</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Оплата</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Уроки
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="instruments.html">Инструменты</a>
+        <a href="#">Вокал</a>
+        <a href="#">Музыкальная теория</a>
+
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Заявка
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="table.html">Урок</a>
+        <a href="#">Подарочный сертификат</a>
+
+      </div>
+    </div>
+
+    <a href="#" class="icon" onclick="myFunc()"> &#9836</a>
+  </div>
+
+
+  <div class="container">
+    <h1 class="page-title">MUSonline</h1>
+  </div>
+</header>
+
+<main>
+  <div class="todo">
+    <h3>Список дел</h3>
+    <div>
+      <form onsubmit="addTask();return false;">
+        <label>
+          <input placeholder="Что нужно сделать?">
+        </label>
+        <button type="submit" class="todo-button">Добавить</button>
+      </form>
+    </div>
+
+
+
+    <div class="conditions">
+      <p></p>
+      <div class="condition">
+        <p onclick="condition(0)" class="active">Все</p>
+        <p onclick="condition(1)">Активные</p>
+        <p onclick="condition(2)">Выполненные</p>
+      </div>
+    </div>
+    <img alt="preloader" class="preloader none" id="preloader" src="img/preloader.gif">
+    <img alt="error" class="error none" id="error" src="img/error.png">
+    <template>
+      <div class="task">
+        <label>
+          <input type="checkbox" onclick="changeCondition(this)">
+        </label>
+        <p></p>
+        <button onclick="deleteTask(this)" class="todo-button">Удалить</button>
+      </div>
+    </template>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <p>MUSonline</p>
+  </div>
+  <div>
+    <p id="load_time"></p>
+  </div>
+</footer>
+</body>
+</html>
